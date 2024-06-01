@@ -1,0 +1,15 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "test-message": "ts-node ./scripts/test_send.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.4",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@eth-optimism/contracts-bedrock": "^0.17.3",
+    "ethers": "^6.12.1"
+  }
+}
