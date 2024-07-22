@@ -1,15 +1,20 @@
 {
   "name": "hardhat-project",
   "scripts": {
+    "generate-types": "hardhat typechain",
     "test-message": "ts-node ./scripts/test_send.ts"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
     "hardhat": "^2.22.4",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2"
   },
   "dependencies": {
     "@eth-optimism/contracts-bedrock": "^0.17.3",
+    "@openzeppelin/contracts": "^5.0.2",
     "ethers": "^6.12.1"
   }
 }
