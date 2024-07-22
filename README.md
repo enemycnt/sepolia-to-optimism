@@ -1,9 +1,10 @@
 # Sepolia to Optimism message bridge
+
 This Hardhat project implements secure cross-domain message passing between the Sepolia and Optimism networks using `Sender` and `Receiver` smart contracts.
 
 Source code of smartcontracts is at [`./contracts`](./contracts/)
 
-[> Live test dApp <](https://sepolia-to-optimism-next.vercel.app/) Source code of dapp in [next-frotend](./next-frontend/)
+[> Live test dApp <](https://sepolia-to-optimism-next.vercel.app/) Source code of dapp in [next-frontend](./next-frontend/)
 
 ### Features:
 
@@ -62,5 +63,3 @@ npx hardhat ignition deploy ignition/modules/Sender.ts --network sepolia
 # Reciever contract to optimism
 npx hardhat ignition deploy ignition/modules/Receiver.ts --network optimism
 ```
-
-
